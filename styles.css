@@ -37,6 +37,7 @@ body {
   border-radius: 0.5rem;
   padding: 1rem;
   color: black;
+  margin: 1px;
 }
 .navbar .nav-pill {
   text-align: right;
@@ -62,20 +63,18 @@ body {
 }
 .section {
   padding: 1rem;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
 }
 .off-sec {
   background-color: #fdf4ff;
+  border-radius: 1rem;
+  margin-bottom: 3.4px;
+  margin-top: 3.4px;
 }
-.btn {
-  background-color: var(--primary-color);
-  padding: 1rem;
 
-  border-radius: 00.5rem;
-  font-size: medium;
-}
 .footer {
   text-align: center;
   background-color: var(--primary-color);
