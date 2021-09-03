@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+:root {
+  --primary-color: #efc786;
+}
+.container {
+  padding: 0rem 1rem;
+}
+.center-container {
+  max-width: 300px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+}
+.primary-link {
+  color: black;
+  background-color: #efc786;
+  border-radius: 0.5rem;
+}
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+.non-bull {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navbar {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: black;
+}
+.navbar .nav-pill {
+  text-align: right;
+  color: black;
+}
+.nav-brand {
+  font-weight: bold;
+}
+.link-active {
+  font-weight: bold;
+}
+.head .head-img {
+  max-height: 350px;
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.head .head-heading {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.section {
+  padding: 1rem;
+}
+.section h1 {
+  text-align: center;
+}
+.off-sec {
+  background-color: #fdf4ff;
+}
+.btn {
+  background-color: var(--primary-color);
+  padding: 1rem;
+
+  border-radius: 00.5rem;
+  font-size: medium;
+}
+.footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.f {
+  color: black;
+}
