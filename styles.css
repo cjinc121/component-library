@@ -26,6 +26,7 @@ body {
 .secondary-link {
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
+  color: black;
 }
 .non-bull {
   list-style: none;
