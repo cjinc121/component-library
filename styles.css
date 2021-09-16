@@ -22,12 +22,24 @@ body {
   color: black;
   background-color: #efc786;
   border-radius: 0.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  margin: 0.5px;
 }
+.primary-link:hover {
+  box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.4);
+}
+
 .secondary-link {
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
   color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  margin: 0.5px;
 }
+.secondary-link:hover {
+  box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.4);
+}
+
 .non-bull {
   list-style: none;
 }
