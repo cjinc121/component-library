@@ -22,7 +22,7 @@
   <article class="article">
     <h2>CSS Flexbox for beginners by beginner</h2>
     <small>26.9.2021-CSS,FLEXBOX</small>
-    <p class="intro">The Flexbox Layout aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic .</p>
+    <p >The Flexbox Layout aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic .</p>
     <h3>Basics :</h3>
     <p>The flexbox layout involves lot of properties some are applied on the  parent element or flex-container and others are meant for children element or flex-items. Also layout of flexbox is done in refernce to two axis:
       <ul>
@@ -36,18 +36,19 @@
     <p>Flex properties are  of two types :
       <ul>
         <li>Parent Properties:
-          <ul><li><a class="link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#display">display:flex</a> </li>
-            <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-direction">flex-direction:</a>  row | row-reverse | column | column-reverse </li>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-wrap">flex-wrap:</a>  nowrap | wrap | wrap-reverse</li>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#justify-content">justify-content:</a>  flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe</li>
+          <ul><li><a class="link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#display">display:flex</a><p>This defines a flex container.It enables a flex context for all its direct children.</p> </li>
+            <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-direction">flex-direction:</a>  row | row-reverse | column | column-reverse <p>This establishes the main-axis, thus defining the direction flex items are placed in the flex container.They are laid out in single direction primarily, either in horizontal rows or vertical columns.</p> </li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-wrap">flex-wrap:</a>  nowrap | wrap | wrap-reverse <p>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</p></li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#justify-content">justify-content:</a>  flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe <p>This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. </p></li>
+          <li>align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe <p>This defines the default behavior for how flex items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross-axis</p></li>
           </ul>
         </li>
         <li>Children Properties:</li>
         <ul>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#order">order :</a> </li>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-shrink">flex-shrink:</a> </li>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-grow">flex-grow:</a>  </li>
-          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#align-self"> align-self:</a> auto | flex-start | flex-end | center | baseline | stretch</li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#order">order :</a> <p>By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.</p></li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-shrink">flex-shrink:</a><p>This defines the ability for a flex item to shrink if necessary.</p> </li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-grow">flex-grow:</a> <p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p> </li>
+          <li><a class="link"href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#align-self"> align-self:</a> auto | flex-start | flex-end | center | baseline | stretch <p>This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</p></li>
         </ul>
       </ul>
     </p>
